@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run github (integrated terminal)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/github",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "preLaunchTask": "build github",
+            "MIMode": "lldb",
+            "miDebuggerPath": "/usr/bin/lldb"
+        }
+    ]
+}
